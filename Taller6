@@ -1,0 +1,14 @@
+#define pA 23
+
+
+void setup() {
+ pinMode (pA, output);
+
+}
+
+void loop() {
+digitalWrite(pA,HIGH);
+delay (5000);
+digitalWrite(pA,LOW);
+delay(3000);
+}
